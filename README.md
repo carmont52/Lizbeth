@@ -21,6 +21,14 @@ funcionan abriéndolos desde el celular o la computadora, incluso sin internet.
 > Para un link abierto: **Settings → General → Change visibility → Public**.
 > Alternativa sin GitHub: mandarle el archivo por WhatsApp o correo — se abre igual.
 
+### Si el deployment falla
+
+Un error `429 (Too Many Requests)` al descargar `jekyll-build-pages` es una falla temporal de
+GitHub, no de estos archivos: ve a **Actions** → la ejecución fallida → **Re-run all jobs**.
+
+El archivo `.nojekyll` (vacío, incluido aquí) le dice a Pages que publique el HTML tal cual sin
+pasarlo por Jekyll. Súbelo también a la raíz.
+
 ## Audio
 
 El botón *Poner música* (arriba a la derecha) inicia el ambiente; no arranca solo porque los
