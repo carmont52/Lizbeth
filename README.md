@@ -1,26 +1,31 @@
 # Línea de tiempo de Lizbeth Gárate
 
-Página de cumpleaños: recorrido vertical por siete etapas (2011 → hoy), tonos pasteles,
-pétalos flotando y música ambiental suave generada en el navegador.
+Dos versiones de la misma historia (2011 → hoy), con las mismas fotos y textos:
 
-**Todas las fotos ya están incrustadas dentro de `index.html`.** Es un solo archivo
-autocontenido: funciona abriéndolo directo desde el celular o la computadora, incluso sin internet.
+- `index.html` — recorrido vertical, etapa por etapa.
+- `3d.html` — túnel de recuerdos en 3D: la cámara avanza en profundidad con el scroll.
+
+Cada página tiene un botón discreto abajo para saltar a la otra.
+
+**Todo va incrustado dentro de cada archivo** (fotos, tipografías, audio). Son autocontenidos:
+funcionan abriéndolos desde el celular o la computadora, incluso sin internet.
 
 ## Publicar en GitHub Pages
 
-1. Sube `index.html` (y este README) a la raíz del repositorio `carmont52/Lizbeth`.
+1. Sube `index.html` y `3d.html` a la raíz del repositorio `carmont52/Lizbeth`
+   (Add file → Upload files → arrastra los dos → Commit).
 2. **Settings → Pages → Source: Deploy from a branch → main / (root)** → Save.
-3. Espera ~1 minuto: queda en `https://carmont52.github.io/Lizbeth/`
+3. En ~1 minuto queda en `https://carmont52.github.io/Lizbeth/`
 
-> El repositorio es privado, y GitHub Pages en repos privados requiere plan pago.
-> Si quieres que sea un link abierto, cambia el repo a público en **Settings → General → Change visibility**.
-> Alternativa sin GitHub: enviarle el archivo `index.html` por WhatsApp o correo — se abre igual.
+> El repositorio es privado y GitHub Pages en repos privados requiere plan pago.
+> Para un link abierto: **Settings → General → Change visibility → Public**.
+> Alternativa sin GitHub: mandarle el archivo por WhatsApp o correo — se abre igual.
 
 ## Audio
 
-El botón *Poner música* (arriba a la derecha) inicia el ambiente. No arranca solo porque
-los navegadores bloquean el audio automático. Se genera con Web Audio —notas de celesta en
-escala pentatónica— así que no hay canciones con derechos de autor.
+El botón *Poner música* (arriba a la derecha) inicia el ambiente; no arranca solo porque los
+navegadores bloquean el audio automático. Se genera con Web Audio —notas de celesta en escala
+pentatónica— así que no hay canciones con derechos de autor.
 
 ## Etapas
 
@@ -33,3 +38,4 @@ escala pentatónica— así que no hay canciones con derechos de autor.
 | 2016–2020 | Familia y pandemia |
 | Ene 2021 | Nace Valentina |
 | 2021–hoy | Nosotros cuatro |
+| — | La carta |
